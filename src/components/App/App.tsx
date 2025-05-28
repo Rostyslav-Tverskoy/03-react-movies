@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from "./App.module.css"
 import toast, { Toaster } from 'react-hot-toast';
-import { fetchMovies } from '../../services/movieservice';
+import { fetchMovies } from '../../services/movieService';
 import { type Movie } from '../../types/movie';
 import  SearchBar  from '../SearchBar/SearchBar';
 import  MovieGrid  from '../MovieGrid/MovieGrid';
@@ -47,4 +47,3 @@ export default function App() {
     </div>
   );
 }
-//1
